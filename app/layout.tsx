@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 import NavBar from "./components/Navbar";
+import BlogFooter from "./components/BlogFooter";
+import { BlogCarousel } from "./components/BlogCarousel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +32,7 @@ export default function RootLayout({
 
         {children}
         </main>
+        <BlogFooter/>
         
         </ThemeProvider> 
         </body>

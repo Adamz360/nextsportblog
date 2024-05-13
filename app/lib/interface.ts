@@ -11,3 +11,8 @@ export interface fullBlog {
     title: string;
     content: any
 }
+
+export interface  blogcarousel {
+    titleImage: any;
+    title: string;
+}

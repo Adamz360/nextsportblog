@@ -179,6 +179,7 @@ const CarouselItem = React.forwardRef<
   const { orientation } = useCarousel()
 
   return (
+  
     <div
       ref={ref}
       role="group"
